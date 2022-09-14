@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import Hello from './Hello';
-import {Greet} from './Components/Main';
 import Header from './Components/Header';
+import Main from './Components/Main'
 
 function App() {
   return (
     <div className="App">
-      <Greet />
+      <Header/>
+      <Main name="Pranaya" HeroName="Wonder Women">
+        <p>This is children</p>
+      </Main>
+      <Main name="Jalander" HeroName="Superman">
+        <button>test</button>
+        </Main>
+      <Main name="Ashvath" HeroName="BatMan"/>
     </div>
   );
 }
