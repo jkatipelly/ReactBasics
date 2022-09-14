@@ -3,7 +3,8 @@ import React, {Component} from "react";
 class Header extends Component{
     render()
     {
-        return React.createElement('Div',{id:'hello'},'Class without JSX')
+        
+        return <h1>Welcome {this.props.name} a.k.a {this.props.HeroName} {this.props.children}</h1>
     }
 }
 
