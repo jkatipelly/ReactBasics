@@ -1,12 +1,16 @@
 import './App.css';
 import Header from './Components/Header';
-import Main from './Components/Main'
+import Main from './Components/Main';
+import Message from './Components/Message';
+
 
 function App() {
+
   return (
-    <div className="App">
+    <div className="App">  
       
-        <Main name="Pranaya" HeroName="Wonder Women">
+<Message></Message>
+      {/* <Main name="Pranaya" HeroName="Wonder Women">
           <p>This is children</p>
         </Main>
 
@@ -22,7 +26,7 @@ function App() {
 
         <Header name="Jalander" HeroName="Superman"/>
 
-        <Header name="Ashvath" HeroName="Batman"/>
+  <Header name="Ashvath" HeroName="Batman"/>*/}
     </div>
   );
 }
