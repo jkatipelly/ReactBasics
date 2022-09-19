@@ -13,8 +13,8 @@ class Message extends Component
 
     subscribe()
     {
-        this.setState({
-            message:"Thank you for subscribing"}
+        this.setState(()=>({
+            message:"Thank you for subscribing"})
         )
     }
 
@@ -25,9 +25,7 @@ class Message extends Component
             <h1>{this.state.message}</h1>
             <button onClick={()=>this.subscribe()}>Subscribe</button>
         </div>
-        )
-            
-        
+        )     
     }
 }
 export default Message;

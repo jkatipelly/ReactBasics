@@ -1,24 +1,17 @@
 import './App.css';
 import Header from './Components/Header';
 import Main from './Components/Main';
-import Message from './Components/Message';
-import Counter from './Components/Counter';
-
+import Footer from './Components/Footer';
 
 function App() {
 
   return (
     <div className="App">  
       
-      <Main name="Pranaya" HeroName="Wonder Women">
-          <p>This is children</p>
-        </Main>
 
-      {/*<Counter />
+     <Footer name="Ashvath" heroName="SuperMan"></Footer>
 
-     
-
-        <Main name="Jalander" HeroName="Superman">
+        {/*<Main name="Jalander" HeroName="Superman">
           <button>test</button>
         </Main>
 

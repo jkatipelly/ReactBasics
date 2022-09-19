@@ -1,7 +1,12 @@
-import React from "react";
+import React, { Component } from 'react'
 
-const Cars=['Ford', 'Hyundai', 'Audi'];
+class Footer extends Component {
 
-const newCars = Cars.map((car)=> <p>{car}</p>);
+  render()  
+  {
+    const{name,heroName}=this.props;
+    return <h1>Hello {name} a. k. a {heroName}</h1>  
+  }
+}
 
-ReactDOM.render(newCars,document.getElementById("root"));
+export default Footer
