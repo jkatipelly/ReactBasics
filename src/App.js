@@ -10,11 +10,13 @@ function App() {
   return (
     <div className="App">  
       
-      <Counter />
-
-      {/* <Main name="Pranaya" HeroName="Wonder Women">
+      <Main name="Pranaya" HeroName="Wonder Women">
           <p>This is children</p>
         </Main>
+
+      {/*<Counter />
+
+     
 
         <Main name="Jalander" HeroName="Superman">
           <button>test</button>

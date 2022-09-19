@@ -1,10 +1,10 @@
 import React  from "react";
 
 const Main = (props) => {
-    console.log(props) 
+    const{name,HeroName}    =props;
     return (
         <div>
-            <h1>Hello {props.name} a.k.a {props.HeroName}</h1>
+            <h1>Hello {name} a.k.a {HeroName}</h1>
             {props.children}
         </div>
             )
