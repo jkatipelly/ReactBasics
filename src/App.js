@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Main from './Components/Main';
 import Message from './Components/Message';
+import Counter from './Components/Counter';
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <div className="App">  
       
-<Message></Message>
+      <Counter />
+
       {/* <Main name="Pranaya" HeroName="Wonder Women">
           <p>This is children</p>
         </Main>
