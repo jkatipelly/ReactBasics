@@ -5,15 +5,16 @@ import Footer from './Components/Footer';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
 
 function App() {
 
   return (
     <div className="App">  
       
-     <EventBind />
+     <ParentComponent></ParentComponent>
 
-     {/* 
+     {/* <EventBind />
         
         <FunctionClick />
         
