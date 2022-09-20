@@ -2,16 +2,24 @@ import './App.css';
 import Header from './Components/Header';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
+import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 function App() {
 
   return (
     <div className="App">  
       
+     <EventBind />
 
-     <Footer name="Ashvath" heroName="SuperMan"></Footer>
+     {/* 
+        
+        <FunctionClick />
+        
+        <ClassClick />
 
-        {/*<Main name="Jalander" HeroName="Superman">
+        <Main name="Jalander" HeroName="Superman">
           <button>test</button>
         </Main>
 
