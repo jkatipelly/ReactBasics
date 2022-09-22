@@ -12,44 +12,16 @@ import Stylesheets from './Components/Stylesheets';
 import Inline from './Components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';
+import Form from './Components/Form';
 
 
 function App() {
 
   return (
     <div className="App"> 
-<h1 className='error'>Error</h1>
-<h1 className={styles.success}>Success</h1>
+        <Form></Form>
 
-
-    <Inline></Inline>
-
-    {/* <Stylesheets primary={true}/> */}
-        {/* <NameList></NameList> */}
-
-    {/* <UserGreeting></UserGreeting>  */}
-      
-     {/* <ParentComponent></ParentComponent> */}
-
-     {/* <EventBind />
-        
-        <FunctionClick />
-        
-        <ClassClick />
-
-        <Main name="Jalander" HeroName="Superman">
-          <button>test</button>
-        </Main>
-
-        <Main name="Ashvath" HeroName="BatMan"/>
-
-        <Header name="Pranaya" HeroName="Wonder Women">
-          <button>test Class</button>
-          </Header>
-
-        <Header name="Jalander" HeroName="Superman"/>
-
-  <Header name="Ashvath" HeroName="Batman"/>*/}
+    
     </div>
   );
 }
