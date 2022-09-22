@@ -13,13 +13,15 @@ import Inline from './Components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './Components/Form';
+import LifecycleA from './Components/LifecycleA';
 
 
 function App() {
 
   return (
     <div className="App"> 
-        <Form></Form>
+    <LifecycleA />
+        {/* <Form></Form> */}
 
     
     </div>
