@@ -14,16 +14,17 @@ import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './Components/Form';
 import LifecycleA from './Components/LifecycleA';
+import ParentComp from './Components/ParentComp';
 
 
 function App() {
 
   return (
     <div className="App"> 
-    <LifecycleA />
-        {/* <Form></Form> */}
-
-    
+        
+        <ParentComp></ParentComp>
+        {/* <LifecycleA /> */}
+        {/* <Form></Form> */}    
     </div>
   );
 }
