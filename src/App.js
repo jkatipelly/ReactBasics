@@ -15,14 +15,18 @@ import styles from './appStyles.module.css';
 import Form from './Components/Form';
 import LifecycleA from './Components/LifecycleA';
 import ParentComp from './Components/ParentComp';
+import RefsDemo from './Components/RefsDemo';
 
 
 function App() {
 
   return (
     <div className="App"> 
+
+   
         
-        <ParentComp></ParentComp>
+        <RefsDemo></RefsDemo>
+        {/* <ParentComp></ParentComp> */}
         {/* <LifecycleA /> */}
         {/* <Form></Form> */}    
     </div>
