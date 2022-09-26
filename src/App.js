@@ -16,24 +16,19 @@ import Form from './Components/Form';
 import LifecycleA from './Components/LifecycleA';
 import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
+import RefsDemo from './Components/RefsDemo';
 
 
 function App() {
 
   return (
-    <div className="App"> 
-<<<<<<< HEAD
-    <Table></Table>
-    
-=======
-
-   
+    <div className="App">  
         
         <RefsDemo></RefsDemo>
         {/* <ParentComp></ParentComp> */}
         {/* <LifecycleA /> */}
         {/* <Form></Form> */}    
->>>>>>> e98ebabb3cbd1a9ab65d44ef99e2c99e2007fecb
+
     </div>
   );
 }
