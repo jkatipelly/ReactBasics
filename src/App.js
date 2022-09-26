@@ -18,6 +18,7 @@ import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
 import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/FocusInput';
+import FRParentInput from './Components/FRParentInput';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className="App">  
         
-        <FocusInput />
+        <FRParentInput />
     </div>
   );
 }
