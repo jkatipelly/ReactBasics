@@ -9,7 +9,7 @@ import withCounter from './withCounter'
     return (
         
       <div> 
-        <h2 onMouseOver={incrementCount}>Hover {count} times </h2>
+        <h2 onMouseOver={incrementCount}>Hover {count} times {this.props.name} </h2>
       </div>
     )
   }

@@ -30,8 +30,8 @@ function App() {
 
   return (
     <div className="App">  
-      <ClickCounter />
-      <HoverCounter />
+      <ClickCounter name='jalander'/>
+      <HoverCounter name='Ashvath'/>
     </div>
   );
 }
