@@ -22,21 +22,16 @@ import FRParentInput from './Components/FRParentInput';
 import PortalDemo from './Components/PortalDemo';
 import Hero from './Components/Hero';
 import ErrorBoundary from './Components/ErrorBoundary';
+import ClickCounter from './Components/ClickCounter';
+import HoverCounter from './Components/HoverCounter';
 
 
 function App() {
 
   return (
     <div className="App">  
-     <ErrorBoundary>   
-      <Hero heroName='SuperMAN' />
-      </ErrorBoundary>
-      <ErrorBoundary>  
-      <Hero heroName='SuperMan' />
-      </ErrorBoundary>
-      <ErrorBoundary>  
-      <Hero heroName='joker' />
-      </ErrorBoundary>
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
