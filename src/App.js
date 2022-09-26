@@ -17,6 +17,7 @@ import LifecycleA from './Components/LifecycleA';
 import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
 import RefsDemo from './Components/RefsDemo';
+import FocusInput from './Components/FocusInput';
 
 
 function App() {
@@ -24,11 +25,7 @@ function App() {
   return (
     <div className="App">  
         
-        <RefsDemo></RefsDemo>
-        {/* <ParentComp></ParentComp> */}
-        {/* <LifecycleA /> */}
-        {/* <Form></Form> */}    
-
+        <FocusInput />
     </div>
   );
 }
