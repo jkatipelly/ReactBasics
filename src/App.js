@@ -22,8 +22,18 @@ function App() {
 
   return (
     <div className="App"> 
+<<<<<<< HEAD
     <Table></Table>
     
+=======
+
+   
+        
+        <RefsDemo></RefsDemo>
+        {/* <ParentComp></ParentComp> */}
+        {/* <LifecycleA /> */}
+        {/* <Form></Form> */}    
+>>>>>>> e98ebabb3cbd1a9ab65d44ef99e2c99e2007fecb
     </div>
   );
 }
